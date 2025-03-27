@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>All Recipes</title>
+	</head>
+	<h2>
+		Recipes:
+	</h2>
+	<body>
+		<div>
+			<ul>
+				{% for recipe in all_recipes %}
+					<li>{{recipe.title}}</br>
+				{% endfor %}
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
